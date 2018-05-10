@@ -5,14 +5,15 @@
 ## 1.安裝node,npm
 本專案的版本
 
+```javascript
 $npm -v  
 5.6.0
 $node -v
 v8.11.1
+```
 
 
-
-## 2.透過npm安裝webpack、webpack loader、webpack-dev-sever 
+## 2.透過npm安裝webpack、webpack loader、webpack-dev-sever
 ```javascript
 $npm init
 ```
