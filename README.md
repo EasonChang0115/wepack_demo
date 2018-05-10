@@ -30,7 +30,7 @@ $npm install --save-dev babel-core babel-eslint babel-loader babel-preset-es2015
 
 
 ## 3.在根目錄設定webpack.config.js
-## 4.在根目錄設定.babelrc 若在webpack.config.js的loader有設定的話 則可以忽略
+## 4.在根目錄設定.babelrc
 
 ## 5.安裝 react 和 react-dom
 ```javascript
