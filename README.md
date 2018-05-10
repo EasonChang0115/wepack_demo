@@ -2,9 +2,10 @@
 > [name=仲豪] 
 
 
-## 安裝node,npm
+## 1.安裝node,npm
 本專案的版本
-```shell
+
+```javascript
 $npm -v  
 5.6.0
 $node -v
@@ -12,13 +13,13 @@ v8.11.1
 ```
 
 
-## 透過npm安裝webpack、webpack loader、webpack-dev-sever
-```shell
+## 2.透過npm安裝webpack、webpack loader、webpack-dev-sever
+```javascript
 $npm init
 ```
 按指示初始化 NPM 設定檔 package.json
 
-```shell
+```javascript
 $npm install --save-dev babel-core babel-eslint babel-loader babel-preset-es2015 babel-preset-react html-webpack-plugin webpack-cli webpack webpack-dev-server
 ```
 --save-dev 是可以讓你將安裝套件的名稱和版本資訊存放到 package.json，方便日後使用
@@ -28,23 +29,23 @@ $npm install --save-dev babel-core babel-eslint babel-loader babel-preset-es2015
 ([參考網址](https://doc.webpack-china.org/plugins/html-webpack-plugin/#%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95))
 
 
-## 在根目錄設定webpack.config.js
-## 在根目錄設定.babelrc 若在webpack.config.js的loader有設定的話 則可以忽略
+## 3.在根目錄設定webpack.config.js
+## 4.在根目錄設定.babelrc 若在webpack.config.js的loader有設定的話 則可以忽略
 
-## 安裝 react 和 react-dom
-```shell
+## 5.安裝 react 和 react-dom
+```javascript
 $npm install --save-dev react react-dom
 ```
 
-## 安裝 style 和 url圖片 的loader文件
-```shell
+## 6.安裝 style 和 url圖片 的loader文件
+```javascript
 $npm install style-loader css-loader url-loader --save-dev
 ```
 引入loader後，就可以在index.js進入點import引入css或其他靜態資源
 
 
-## 安裝 sass loader文件
-```shell
+## 7.安裝 sass loader文件
+```javascript
 $npm install sass-loader node-sass --save-dev
 ```
 引入loader後，就可以在index.js進入點import引入scss
