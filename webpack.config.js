@@ -4,7 +4,7 @@ const path = require('path');
 
 // 設定外掛進入點
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: `${__dirname}/app/index.html`,
+  template: `${__dirname}/src/index.html`,
   file: 'index.html',
   inject: 'body'
 });
@@ -12,7 +12,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = {
   // 檔案起始點從 entry 進入，因為是陣列所以也可以是多個檔案
   entry:[
-    './app/index.js'
+    './src/index.js'
   ],
 
 
